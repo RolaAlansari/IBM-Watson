@@ -1,0 +1,927 @@
+{
+  "intents": [
+    {
+      "intent": "angles",
+      "examples": [
+        {
+          "text": "angle"
+        },
+        {
+          "text": "angles"
+        },
+        {
+          "text": "Explain the angles?"
+        },
+        {
+          "text": "What are the angles?"
+        },
+        {
+          "text": "What is meant by angles?"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yes, angle"
+        },
+        {
+          "text": "yes, can you tell me about the angles numbers?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Ask",
+      "examples": [
+        {
+          "text": "How Are You?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "end",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "Thank you very much"
+        }
+      ],
+      "description": "thank you"
+    },
+    {
+      "intent": "First",
+      "examples": [
+        {
+          "text": "arm"
+        },
+        {
+          "text": "arm user interface"
+        },
+        {
+          "text": "First"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Good",
+      "examples": [
+        {
+          "text": "Good Afternoon"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good Morning"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "name",
+      "examples": [
+        {
+          "text": "name ?"
+        },
+        {
+          "text": "What is your name?"
+        },
+        {
+          "text": "Who is speaking?"
+        },
+        {
+          "text": "Who is talking to me?"
+        },
+        {
+          "text": "your name ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No",
+      "examples": [
+        {
+          "text": "ok, no"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "request",
+      "examples": [
+        {
+          "text": "ask"
+        },
+        {
+          "text": "ask?"
+        },
+        {
+          "text": "Can I make a request?"
+        },
+        {
+          "text": "can request ?"
+        },
+        {
+          "text": "yes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "second_interface",
+      "examples": [
+        {
+          "text": "base"
+        },
+        {
+          "text": "base user interface"
+        },
+        {
+          "text": "second"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thanks",
+      "examples": [
+        {
+          "text": "no"
+        },
+        {
+          "text": "no thanks"
+        },
+        {
+          "text": "no, thanks"
+        },
+        {
+          "text": "no thank you"
+        },
+        {
+          "text": "no, thank you"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "user_interface",
+      "examples": [
+        {
+          "text": "Can you explain the user interfaces?"
+        },
+        {
+          "text": "Can you explain to me the idea of user interfaces?"
+        },
+        {
+          "text": "user Interface"
+        },
+        {
+          "text": "What do user interfaces contain?"
+        },
+        {
+          "text": "What do user interfaces do?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "welcome",
+      "examples": [
+        {
+          "text": "Good Afternoon"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "yah"
+        },
+        {
+          "text": "yes"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "describe",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "First",
+          "synonyms": [
+            "Arm",
+            "arm angles",
+            "arm control",
+            "arm interface",
+            "Arm User Interface"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "describe_second",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "base User Interface",
+          "synonyms": [
+            "base",
+            "base interface",
+            "base user interface ",
+            "second",
+            "the base"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Dissatisfaction",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dissatisfied",
+          "synonyms": [
+            "angry",
+            "displeased",
+            "frustrated",
+            "not happy",
+            "unhappy",
+            "unimpressed",
+            "unsatisfied"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "interface",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "both",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "robot arm interface?",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "robot base interface?",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "request",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Can I request a service?",
+          "synonyms": [
+            "can I ask?",
+            "can I ask you?",
+            "Can I make a request?"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "satisfaction",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "very satisfied",
+          "synonyms": [
+            "amazed",
+            "amazing",
+            "awesome",
+            "delighted",
+            "enjoyed",
+            "excellent",
+            "exciting",
+            "extraordinary",
+            "good",
+            "happy",
+            "impressed",
+            "incredible",
+            "overjoyed",
+            "pleased"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Welcome",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Hello",
+          "synonyms": [
+            "Hi",
+            "welcome"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yah",
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1627409070543",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "base interface",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The base user interface. This interface is used to control the movement of the robot or stop it, and its movement is either right, left, forward or behind. The user chooses the movement he wants by pressing the button he wants to move the robot. do you need anything else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1627409070543",
+      "conditions": "@describe_second",
+      "dialog_node": "node_1_1627429077397",
+      "previous_sibling": "node_5_1627428101584"
+    },
+    {
+      "type": "standard",
+      "title": "evaluation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your rating. Bye!"
+              },
+              {
+                "text": "Have fun with you, goodbye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1627487293974",
+      "conditions": "@Dissatisfaction || @satisfaction",
+      "dialog_node": "node_1_1627487536064"
+    },
+    {
+      "type": "standard",
+      "title": "bye",
+      "parent": "node_1_1627487536064",
+      "conditions": "#end",
+      "dialog_node": "node_1_1627487681053"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tell me what do you want? Do you want to re-explain the user interfaces?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1627429806963",
+      "conditions": "#yes || @yes",
+      "dialog_node": "node_1_1627488362177"
+    },
+    {
+      "type": "standard",
+      "title": "evaluation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your rating. Bye!"
+              },
+              {
+                "text": "Have fun with you, goodbye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1627432984864",
+      "conditions": "@Dissatisfaction || @satisfaction",
+      "dialog_node": "node_2_1627485382828"
+    },
+    {
+      "type": "standard",
+      "title": "thanks",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome, how satisfied are you with our service?"
+              },
+              {
+                "text": "Welcome, what is your evaluation of me?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1627429077397",
+      "conditions": "#thanks || #end || #No",
+      "dialog_node": "node_3_1627432984864",
+      "previous_sibling": "node_8_1627501157088"
+    },
+    {
+      "type": "standard",
+      "title": "thanks",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome. what is your evaluation of me?"
+              },
+              {
+                "text": "Welcome, how satisfied are you with our service?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1627429806963",
+      "conditions": "#thanks || #end || #No",
+      "dialog_node": "node_3_1627487293974",
+      "previous_sibling": "node_1_1627488362177"
+    },
+    {
+      "type": "standard",
+      "title": "Good",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Morning"
+              },
+              {
+                "text": "Good Evening"
+              },
+              {
+                "text": "Good Afternoon"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Good",
+      "dialog_node": "node_5_1627402927776",
+      "previous_sibling": "node_9_1627402610222"
+    },
+    {
+      "type": "standard",
+      "title": "arm interface",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Arm interface.\nThis interface contains five slider range to control the movement of the arm and contains a range of angles starting from zero and ending at 180 degrees. The value entered for the angle is also saved by pressing the save button and running it via the on a button. Do you want to know the angles?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1627409070543",
+      "conditions": "@describe",
+      "dialog_node": "node_5_1627428101584"
+    },
+    {
+      "type": "standard",
+      "title": "bye",
+      "parent": "node_6_1627484933814",
+      "conditions": "#end",
+      "dialog_node": "node_5_1627485201665"
+    },
+    {
+      "type": "standard",
+      "title": "bye",
+      "parent": "node_2_1627485382828",
+      "conditions": "#end",
+      "dialog_node": "node_5_1627485477789"
+    },
+    {
+      "type": "frame",
+      "title": "request",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, how do I serve you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#request",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1627407593220",
+      "previous_sibling": "node_5_1627402927776"
+    },
+    {
+      "type": "frame",
+      "title": "thanks",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome, how satisfied are you with our service?"
+              },
+              {
+                "text": "What is your evaluation of me?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1627428101584",
+      "conditions": "#thanks || #end || #No",
+      "dialog_node": "node_6_1627432337153",
+      "previous_sibling": "node_7_1627429806963"
+    },
+    {
+      "type": "standard",
+      "title": "name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is Rola, how can I help you?"
+              },
+              {
+                "text": "My name is Rola Alansari, how can I help you?"
+              },
+              {
+                "text": "Rola Alansari, how can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#name",
+      "dialog_node": "node_6_1627433666380",
+      "previous_sibling": "node_9_1627401706046"
+    },
+    {
+      "type": "standard",
+      "title": "evaluation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your rating. Bye!"
+              },
+              {
+                "text": "Have fun with you, goodbye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1627432337153",
+      "conditions": "@Dissatisfaction || @satisfaction",
+      "dialog_node": "node_6_1627484933814"
+    },
+    {
+      "type": "standard",
+      "title": "angles ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is meant by angles when moving the arm, you must choose the angle or degree in which you want to move the arm. The shoulder has a certain angle, as well as the elbow, the wrist has an angle, the gripper has an angle, and the base has an angle. The elbow angle is 90, the base is 90, the shoulder is 90, and the wrist 90, the gripper is 0 degrees.do you need anything else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1627428101584",
+      "conditions": "#angles",
+      "dialog_node": "node_7_1627429806963"
+    },
+    {
+      "type": "frame",
+      "title": "user Interface",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, which user interface would you like me to explain to you? The first, the second?"
+              },
+              {
+                "text": "Sure, but which one?"
+              },
+              {
+                "text": "Sure, but would you like me to explain the UI of the arm or the base?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#user_interface",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1627409070543",
+      "previous_sibling": "node_6_1627407593220"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tell me what do you want? Do you want to re-explain the user interfaces?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1627429077397",
+      "conditions": "#yes || @yes",
+      "dialog_node": "node_8_1627501157088"
+    },
+    {
+      "type": "standard",
+      "title": "welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, in this conversation, I give a simple explanation about some of the work that I did during the summer training at the smart methods Company. Smart robots that welcome and receive guests will be designed and trained, as well as wrestling robots, and other projects. If you are interested in my work, write an explanation of the user interface"
+              },
+              {
+                "text": "Hello. How can I help you?  in this conversation, I give a simple explanation about some of the work that I did during the summer training at the smart methods Company. Smart robots that welcome and receive guests will be designed and trained, as well as wrestling robots, and other projects. If you are interested in my work, write an explanation of the user interface"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#welcome",
+      "dialog_node": "node_9_1627401706046",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Ask",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm fine, in this chatbot, I give a simple explanation about some of the work that I did during the summer training at the smart methods Company. Smart robots that welcome and receive guests will be designed and trained, as well as wrestling robots, and other projects. If you are interested in my work, write an explanation of the user interface"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Ask",
+      "dialog_node": "node_9_1627402610222",
+      "previous_sibling": "node_6_1627433666380"
+    },
+    {
+      "type": "standard",
+      "title": "yes2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Well, write user interface explanation"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1627488362177",
+      "conditions": "#yes || @yes",
+      "dialog_node": "node_9_1627489041932"
+    },
+    {
+      "type": "standard",
+      "title": "yes2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Well, write user interface explanation"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1627501157088",
+      "conditions": "#yes || @yes",
+      "dialog_node": "node_9_1627501283619"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, in this conversation, I give a simple explanation about some of the work that I did during the summer training at the smart methods Company. Smart robots that welcome and receive guests will be designed and trained, as well as wrestling robots, and other projects. If you are interested in my work, write an explanation of the user interface"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean: ",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "conversation",
+  "language": "en",
+  "description": ""
+}
