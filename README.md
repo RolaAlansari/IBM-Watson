@@ -5,7 +5,7 @@ This code contains a user interface that leads to two pages:
 * The first leads to the basic control interface
 * The other leads to the arm control interface
 It also has a chatbot to talk to the assistant.
-
+https://eu-gb.assistant.watson.cloud.ibm.com/crn%3Av1%3Abluemix%3Apublic%3Aconversation%3Aeu-gb%3Aa%2Ff6e98f38af9241b7a0cd21d07d5d486e%3A40b48586-91f2-46b5-9fb2-2d7fe5f04e95%3A%3A/skills/db261659-d1e9-4a58-adc8-ed479c8f9363/build/intents
 ## base file:
 This file contains a code to control the movement of the base so that the user can enter the user interface page and press the movement button he wants
 
